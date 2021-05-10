@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:text="APLIKASI GIS MOBILE SEDERHANA"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/text1"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="Elsi Zeheskiel Balla (F551 18 143)"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <Button
+        android:id="@+id/button_masuk"
+        android:layout_width="103dp"
+        android:layout_height="58dp"
+        android:text="Masuk"
+        android:layout_below="@id/text2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="masuk"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <Button
+        android:id="@+id/button_keluar"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="KELUAR"
+        android:layout_below="@id/button_masuk"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:onClick="keluar"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+</RelativeLayout>
